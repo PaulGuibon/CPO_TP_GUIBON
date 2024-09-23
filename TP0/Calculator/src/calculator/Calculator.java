@@ -17,6 +17,14 @@ public class Calculator {
         Scanner op = new Scanner(System.in);
         int operateur;
         operateur=op.nextInt();
+        if (operateur>5){
+            System.out.println("Veuillez entrer une valeur en 1 et 5");
+            System.exit(0);
+        }
+        else if (operateur<1){
+            System.out.println("Veuillez entrer une valeur en 1 et 5");
+            System.exit(0);
+        }
         System.out.println("Donner votre premiere valeur");
         Scanner first = new Scanner(System.in);
         float result;
@@ -42,9 +50,9 @@ public class Calculator {
         else if (operateur == 5){
             result = operande1 % operande2;
         }
-    
+        
         System.out.println(result);
         }
 }
-    
+ 
 

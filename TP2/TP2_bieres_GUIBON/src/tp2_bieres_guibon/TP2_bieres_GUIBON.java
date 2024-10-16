@@ -15,6 +15,14 @@ public class TP2_bieres_GUIBON {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        BouteilleBiere uneBiere = new BouteilleBiere("Cuvée des trolls",7.0,"Dubuisson");
+        uneBiere.lireEtiquette();
+        BouteilleBiere deuxiemeBiere = new BouteilleBiere("Leffe", 6.6,"Abbaye de Leffe");
+        deuxiemeBiere.lireEtiquette();
+        BouteilleBiere troisiemeBiere = new BouteilleBiere("Heineken", 5.0,"Heineken");
+        troisiemeBiere.lireEtiquette();
+        BouteilleBiere quatriemeBiere = new BouteilleBiere("bierasse ", 68.6,"Brasserie du pochtron");
+        quatriemeBiere.lireEtiquette();
     }
     
 }

@@ -23,6 +23,8 @@ public class TP2_bieres_GUIBON {
         troisiemeBiere.lireEtiquette();
         BouteilleBiere quatriemeBiere = new BouteilleBiere("bierasse ", 68.6,"Brasserie du pochtron");
         quatriemeBiere.lireEtiquette();
+        System.out.println(uneBiere) ;
+
     }
     
 }

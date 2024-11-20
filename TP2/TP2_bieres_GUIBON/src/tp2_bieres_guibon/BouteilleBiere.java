@@ -1,5 +1,6 @@
 package tp2_bieres_guibon;
 
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -37,4 +38,14 @@ else {
     System.out.println("Erreur : bière déjà ouverte");
     return false; // Indique que l'opération a échoué
         }
-        }
+    }
+    @Override
+public String toString() {
+String chaine_a_retourner;
+chaine_a_retourner = Nom + " (" + degreAlcool + " degrés) Ouverte ? ";
+if (ouverte == true ) chaine_a_retourner += "oui" ;
+else chaine_a_retourner += "non" ;
+return chaine_a_retourner ;
+}
+    
+}
